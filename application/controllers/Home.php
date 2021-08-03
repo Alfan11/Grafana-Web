@@ -16,6 +16,10 @@ class Home extends CI_Controller {
 		$this->load->view('Dashboard');
 	}
 
+	public function viewCeloe()
+	{
+		$this->load->view('Celoe');
+	}
 	
 	public function viewVMS()
 	{
@@ -45,5 +49,14 @@ class Home extends CI_Controller {
 	public function viewMonitoring()
 	{
 		$this->load->view('VpsMonitoring');
-	}		
+	}
+
+	public function viewQuick()
+	{
+		$this->load->view('QuickBasic');
+	}
+
+
+
+
 }
